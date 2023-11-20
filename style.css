@@ -1,0 +1,32 @@
+/* home page  */
+body{
+  background-image: url(wp6700622-hanuman-4k-desktop-wallpapers.jpg);
+  background-repeat:space;
+  background-size: 100%;
+}
+.container-fluid{
+  margin-top: 10%;
+  text-align: center;
+}
+strong{
+  color: orange;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.home-h1{
+  text-align: center;
+  color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.TextSpeech{
+  
+  display: flex;
+}
+@media screen and (max-width: 1080px) {
+  body {
+    background-image: url(gal.jpg);
+    background-repeat: repeat ;
+    background-color: orange;
+  }
+}
+
