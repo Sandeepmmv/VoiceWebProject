@@ -9,7 +9,7 @@ function Voice(){
     // var res = command.includes("Python")
     // console.log(res)
     if(command.includes("Jai Shree Ram.") || command.includes("Jay") || command.includes("Jai sri ram")) {
-      window.location.href = "index.html";
+      window.location.href = "voice.html";
   }
 }
 recognition.start();
