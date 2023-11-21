@@ -8,7 +8,7 @@ function Voice(){
     document.getElementById('TextSpeech').value = command
     // var res = command.includes("Python")
     // console.log(res)
-    if(command.includes("Jai Shree Ram.") || command.includes("Jay") || command.includes("Jai sri ram")) {
+    if(command.includes("Jai Shree Ram") || command.includes("Jay") || command.includes("Jai sri ram")) || command.includes("Jai shri ram")) || command.includes("Jai Shri Ram")) {
       window.location.href = "voice.html";
   }
 }
